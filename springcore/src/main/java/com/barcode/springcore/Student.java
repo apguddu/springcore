@@ -7,7 +7,7 @@ public class Student {
      
      public void displayStudentInfo()
      {
-    	 System.out.println("*******Student info***********");
+    	 System.out.println("*******Student info************");
     	 System.out.println("name and id -->> " + id + " " + name);
     	 
      }
