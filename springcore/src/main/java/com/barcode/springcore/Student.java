@@ -9,6 +9,7 @@ public class Student {
      {
     	 System.out.println("*******Student info************");
     	 System.out.println("name and id -->> " + id + " " + name);
+    	 System.out.println("*******Student info end************");
     	 
      }
 
