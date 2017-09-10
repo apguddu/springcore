@@ -1,4 +1,4 @@
-package com.barcode.springcore;
+package starterproject;
 
 /**
  * Hello world!

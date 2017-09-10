@@ -11,4 +11,4 @@
  <context:annotation-config></context:annotation-config>
  <context:component-scan base-package="com.barcode.springcore"/>
 
-</beans>
+</beans> 
