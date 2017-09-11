@@ -4,9 +4,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.barcode.springcore.University;
-
 import config.ConfigurationDemo;
+import springinaction.University;
 
 public class SpringApp {
 
@@ -18,7 +17,7 @@ public class SpringApp {
 		//ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		//load configurarion class file 
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationDemo.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationDemo.class);		
 		System.out.println("xml loaded..");
 		University university = (University)context.getBean("university");
 		university.universityInfo();

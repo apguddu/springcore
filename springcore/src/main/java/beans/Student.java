@@ -1,4 +1,4 @@
-package com.barcode.springcore;
+package beans;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
